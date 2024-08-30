@@ -7,6 +7,8 @@ test('should navigate to the about page', async ({ page }) => {
     await page.click('text=here')
     // The new URL should be "/playwright" (baseURL is used there)
     await expect(page).toHaveURL('http://localhost:3000/playwright')
-    // The new page should contain an h1 with "About"
-    await expect(page.locator('div')).toContainText('playwright')
+
+    await expect(
+        page.getByText('This is for the playwright test')
+    ).toContainText('This is for the playwright test')
 })
