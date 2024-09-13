@@ -1,6 +1,6 @@
 ## About
 
-This is a barebones template for NextJS projects. It contains the things I consider as absolute base (for now) for every further project. Includes tailwindcss for styling and playwright + vitest for testing purposes.
+This is a template for NextJS projects. It contains the things I consider as absolute base (for now) and next ui. Includes tailwindcss for styling and playwright + vitest for testing purposes.
 
 ## Tech used
 
